@@ -92,7 +92,8 @@ class SiteController extends Controller
         } else {
             return [
                 'error' => true,
-                'message' => 'Error',
+                'message' => 'This user dont have any project',
+                'projects' => null
             ];
         }  
     }
@@ -197,6 +198,7 @@ class SiteController extends Controller
             return [
                 'error' => true,
                 'message' => 'There is not tasks in project',
+                'tasks' => null
             ];
         }  
     }
