@@ -1,4 +1,4 @@
-# [Main specyfication](https://github.com/novy213/todo)
+# [Main specification](https://github.com/novy213/todo)
 # Api doc
 ## Api url
 ```
