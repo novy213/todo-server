@@ -2,7 +2,7 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=todo',
+    'dsn' => 'mysql:host=todo-server-db-1;dbname=todo',
     'username' => 'root',
     'password' => 'admin',
     'charset' => 'utf8',
